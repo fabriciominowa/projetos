@@ -1,0 +1,769 @@
+
+<html class="no-js" lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>CopiCola</title>
+  <meta name="keywords" content="copicola, copicola prefeitura, inovação, inovação pública, servidores, prato aberto, zona azul, empreenda fácil, mobilab">
+  <meta name="description" content="O COPI&COLA é uma iniciativa que busca ajudar gestores públicos a inovar sendo contribuindo no processo de identificar e mitigar erros na criação e implementação de práticas inovadoras.">
+  <meta name="author" content="Evelyn Bitencourt, Adinan, Douglas B Souza">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/main.19.5.29.164943-min.css">
+  <meta name="theme-color" content="#fafafa">
+  <script>
+  RewriteCond %{HTTPS} on
+  RewriteRule (.*) http://%copicola.prefeitura.sp.gov.br/{HTTP_HOST}%{REQUEST_URI} [L]
+  </script>
+</head>
+<body>
+<!--[if IE]><p class="browserupgrade">You are using an
+<strong>outdated</strong> browser. Please
+<a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p><![endif]-->
+<!-- SMIT HEADER -->
+<script>
+  /* auto rezise window by iframe content */
+    window.addEventListener("message", receiveMessage, false);
+    function receiveMessage(event)
+    {
+        if(event.origin == "http://localhost" || event.origin == "https://011lab.prefeitura.sp.gov.br") {
+            iframe = document.getElementById("global-bar");
+            iframe.style.height = event.data + "px";
+
+            RewriteEngine On
+          RewriteCond %{HTTPS} on
+           RewriteRule ^ http://https://copicola.prefeitura.sp.gov.br/{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+        }
+        RewriteCond %{HTTPS} on
+        RewriteRule (.*) http://%copicola.prefeitura.sp.gov.br/{HTTP_HOST}%{REQUEST_URI} [L]
+
+    }
+
+</script>
+<iframe id="global-bar" src="https://011lab.prefeitura.sp.gov.br/header/global_header.php?color=white" onload="this.contentWindow.postMessage('height', 'https://011lab.prefeitura.sp.gov.br');" scrolling="no" width="100%" height="50px" frameBorder="0"></iframe>
+<!-- END OF SMIT HEADER -->
+<nav id="accessibility" class="sr-only">
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+<ul class="nav nav-accessibility">
+  <li class="nav-item">
+    <a href="#sobre" accesskey="1" class="mr-2">Ir para o conteúdo principal
+    <span class="label px-1">1</span></a>
+  </li>
+    <li class="nav-item">
+    <a href="#nav" accesskey="2" class="mr-2">Ir para o menu
+    <span class="label px-1">2</span></a>
+  </li>
+    <li class="nav-item">
+    <a href="#contato" accesskey="3" class="mr-2">Ir para o rodapé
+    <span class="label px-1">3</span></a>
+  </li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<header class="header sticky-top bg-orange">
+<nav id="nav" class="navbar navbar-expand-lg navbar-light">
+<a class="navbar-brand" href="#">
+<h1 class="title">CopiCola</h1>
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav mx-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="#sobre">Sobre</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#guias">Guias</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#galeria">Galeria</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contato">Contato</a>
+  </li>
+
+</ul>
+</div>
+</nav>
+</header>
+<div id="carouselCopiCola" class="carousel slide carousel-fade" data-ride="carousel">
+<ol class="carousel-indicators" role="tablist">
+
+    <span class="sr-only"></span>
+  </li>
+</ol>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="img/slides/WIFI.png" srcset="img/slides/WIFI.png 768w, img/slides/WIFI.png 960w, img/slides/WIFI.png 1200w, img/slides/WIFI.png 1920w" sizes="100vw" class="d-block w-100" alt="banner">
+    <div class="carousel-caption d-none d-md-block">
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsYTqQUDIv6Na5uIoPSdGEVLCIkWZnS2PUhIXsl6dDSgGQYw/viewform" class="btn btn-primary bg-orange border-0">Clique aqui</a>
+    </div>
+  </div>
+
+</div>
+
+</a>
+</div>
+
+
+</a>
+</div>
+</article>
+</div>
+<main class="main">
+  <span class="anchor" id="sobre"></span>
+  <article class="container-fluid article-sobre pt-3" tabindex="0">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <h2>Sobre</h2>
+        <p>O CopiCola é uma iniciativa da Secretaria de Inovação e Tecnologia que visa construir capacidades para inovar através da transferência de conhecimento de servidor para servidor da Prefeitura de São Paulo.</p>
+        <p>Para os interessados em “colar”, é uma chance de conhecer boas práticas, se inspirar e conhecer quem já inovou. Assim, o CopiCola proporciona economia de tempo e de recursos, já que erros podem ser evitados e soluções que funcionaram podem ser copiadas, adaptadas a outros contextos e melhoradas.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- GUIAS -->
+  <span class="anchor" id="guias"></span>
+  <article class="container-fluid article-guias py-3" tabindex="0">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <h2>Guias</h2>
+        <p>Os guias estão estruturados de modo a apoiar os interessados em replicar a iniciativa. </p>
+        <p>Conheça as iniciativas registradas pelo CopiCola e
+        <span class="font-weight-bold">faça download dos guias</span> para implementação clicando abaixo:</p>
+        <div class="row">
+
+          <!-- Guia Concurso de Projetos -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalConcursoProjetos" tabindex="-1" role="dialog" aria-labelledby="modalmodalConcursoProjetosLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalmodalConcursoProjetosLongTitle">Concurso de Projetos do Mobilab</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalConcursoProjetos">
+                    <fieldset>
+                      <legend class="sr-only">Concurso de Projetos do Mobilab</legend>
+                      <div class="modal-body" data-form="concurso_de_projetos">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Concurso de Projetos do Mobilab');" href='docs/0_concurso_de_projetos.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso Concurso de Projetos do Mobilab</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Edital Comentado do Concurso de Projetos');" href='docs/Edital-Concurso-Público_comentado.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Edital comentado do Concurso de Projetos</a><br>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalConcursoProjetos" data-remote="modal_form_guias.html">
+              <img src="img/portfolio/cc.svg" class="card-img-top" alt="Concurso de Projetos">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia do Concurso de Projetos</h3>
+                <p class="card-text text-muted">#InovaçãoAberta #CódigoAberto #SoftwareLivre #DadosAbertos #ContrataçãodeInovação #Mobilidade</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Guia do Empreenda -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalEmpreendaFacil" tabindex="-1" role="dialog" aria-labelledby="modalEmpreendaFacilLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalEmpreendaFacilLongTitle">Guia do Empreenda Fácil</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalEmpreendaFacil">
+                    <fieldset>
+                      <legend class="sr-only">Guia do Empreenda Fácil</legend>
+                      <div class="modal-body" data-form="empreenda">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Empreenda Fácil');" href='docs/1_empreenda_onepage.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso Empreenda Fácil</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso Empreenda Fácil');" href='docs/1_guia_empreenda_facil.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso Empreenda Fácil</a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalEmpreendaFacil" data-remote="modal_form_guias.html">
+              <img src="img/portfolio/empreenda.svg" class="card-img-top" alt="Empreenda Fácil">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia do Empreenda Fácil</h3>
+                <p class="card-text text-muted">#Autodeclaração #Integração #FluxosDeTrabalho #SimplificaçãoDeProcessos
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Guia Zona Azul Digital -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalZonaAzul" tabindex="-1" role="dialog" aria-labelledby="modalZonaAzulLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title text-uppercase text-purple font-weight-bold" id="modalZonaAzulLongTitle">Guia do Zona Azul Digital</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalZonaAzul">
+                    <fieldset>
+                      <legend class="sr-only">Guia do Zona Azul Digital</legend>
+                      <div class="modal-body" data-form="zona_azul">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Zona Azul');" href='docs/2_zonaazul_onepage.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso Zona Azul</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso Zona Azul Digital');" href='docs/2_guia_zonaazul.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso Zona Azul Digital </a><br>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalZonaAzul" data-remote="modal_form_guias.html">
+              <img src="img/portfolio/azul.svg" class="card-img-top" alt="Zona Azul Digital">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia do Zona Azul Digital</h3>
+                <p class="card-text text-muted">#ChamamentoPúblico #Transparência #Integração #Credenciamento #PagamentoDigital #Transportes</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Guia Prato aberto -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalPratoAberto" tabindex="-1" role="dialog" aria-labelledby="modalPratoAbertoLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalPratoAbertoLongTitle">Guia do Prato Aberto</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalPratoAberto">
+                    <fieldset>
+                      <legend class="sr-only">Guia do Prato Aberto</legend>
+                      <div class="modal-body" data-form="prato_aberto">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Prato Aberto');" href='docs/4_pratoaberto_onepage.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso Prato Aberto</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso Prato Aberto');" href='docs/4_guia_pratoaberto.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso Prato Aberto</a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalPratoAberto" data-remote="modal_form_guias.html">
+              <img src="img/portfolio/aberto.svg" class="card-img-top" alt="Prato Aberto">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia do Prato Aberto</h3>
+                <p class="card-text text-muted">#SoftwareLivre #Transparência #AcessoInformação #Colaboração #InovaçãoAberta #Chatbot #Educação</p>
+              </div>
+            </a>
+          </div>
+          <!-- Guia Banco de dados Geográficos -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalBancoGeograficos" tabindex="-1" role="dialog" aria-labelledby="modalBancoGeograficosLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalBancoGeograficosLongTitle">Guia do Banco de Dados Geográficos</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalBancoGeograficos">
+                    <fieldset>
+                      <legend class="sr-only">Guia do Banco de dados Geográficos</legend>
+                      <input type="hidden" name="origem" value="concurso_de_projetos">
+                      <div class="modal-body" data-form="banco_de_dados">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Banco de Dados Geográficos da SMUL');" href='docs/5_bdgsmul_onepage.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso Banco de Dados Geográficos da SMUL</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso Banco de Dados Geográficos da SMUL');" href='docs/5_guia_bdgsmul.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso Banco de Dados Geográficos da SMUL</a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalBancoGeograficos" data-remote="modal_form_guias.html">
+              <img src="img/portfolio/bdg.svg" class="card-img-top" alt="Banco de Dados Geográficos">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia do Banco de Dados Geográficos</h3>
+                <p class="card-text text-muted">#Digitalização #Compartilhamento #SoftwareLivre #GestãodaInformação #FluxosdeTrabalho #SimplificaçãodeProcessos</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Guia Descomplica -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalDescomplica" tabindex="-1" role="dialog" aria-labelledby="modalDescomplicaLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalDescomplicaLongTitle">Guia do Descomplica SP</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalDescomplica">
+                    <fieldset>
+                      <legend class="sr-only">Guia do Descomplica SP</legend>
+                      <div class="modal-body" data-form="descomplica">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Descomplica SP');" href='docs/6_descomplica_onepage.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/>Onepage do caso Descomplica SP</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso Descomplica SP');" href='docs/6_guia_descomplica.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso Descomplica SP</a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalDescomplica" data-remote="modal_form_guias.html">
+              <img src="img/portfolio/descomplica.svg" class="card-img-top" alt="Descomplica SP">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia do Descomplica SP</h3>
+                <p class="card-text text-muted">#Atendimento #FluxosdeTrabalho #GovernoÚnico #Intregação #LadoaLado #DescomplicaDigital</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Transporte de servidores -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalTransporte" tabindex="-1" role="dialog" aria-labelledby="modalTransporteLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalTransporteLongTitle">Guia do Transporte de Servidores por Aplicativo</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalTransporte">
+                    <fieldset>
+                      <legend class="sr-only">Guia do Transporte de Servidores por Aplicativo</legend>
+                      <div class="modal-body" data-form="transportes">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Onepage do Transporte de Servidores por Aplicativo');" href='docs/7_onepage_transporte_de_servidores_por_aplicativos.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem; margin-left: 1rem;'/>'Onepage do caso Transporte de Servidores por Aplicativo</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do Transporte de Servidores por Aplicativo');" href='docs/7_guia_do_transporte_de_servidores_por_aplicativos.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem; margin-left: 1rem;'/> Guia do caso Transporte de Servidores por Aplicativo</a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalTransporte" data-remote="modal_form_guias.html">
+              <img src="img/portfolio/thumb_transporte_de_servidores_por_aplicativos.png" class="card-img-top" alt="Transporte de Servidores por Aplicativo ">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia do Transporte de Servidores por Aplicativo</h3>
+                <p class="card-text text-muted">#Contratação #Eficiência #TransportePorAplicativos</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Dados abertos -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalDadosAbertos" tabindex="-1" role="dialog" aria-labelledby="modalDadosAbertosLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalDadosAbertosLongTitle">Guia do API SOF</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalDadosAbertos">
+                    <fieldset>
+                      <legend class="sr-only">Guia do API SOF</legend>
+                      <div class="modal-body" data-form="api">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso API-SOF');" href='docs/8_dadosabertos_onepage.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso API-SOF</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso API-SOF');" href='docs/8_guia_dadosabertos.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso API-SOF</a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalDadosAbertos" data-remote="modal_form_guias.html">
+              <img src="img/portfolio/api.png" class="card-img-top" alt="API-SOF">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia do API SOF</h3>
+                <p class="card-text text-muted">#Transparência #AcessoInformação #Colaboração #InovaçãoAberta #DesagregaçãoDeDados </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Guia Triagem -->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalTriagem" tabindex="-1" role="dialog" aria-labelledby="modalTriagemLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalTriagemLongTitle">Guia Triagem Avançada</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalTriagem">
+                    <fieldset>
+                      <legend class="sr-only">Guia Triagem Avançada</legend>
+                      <div class="modal-body" data-form="triagem">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Triagem Avançada');" href='docs/9_one_page_triagem_avancada.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso Triagem Avançada</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso Triagem Avançada');" href='docs/9_guia_triagem_avancada.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso Triagem Avançada</a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalTriagem" data-remote="modal_form_guias.html">
+              <img src="./img/portfolio/thumb_triagem_avancada.png" class="card-img-top" alt="Triagem Avançada">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia Triagem Avançada</h3>
+                <p class="card-text text-muted"> </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Guia Robótica-->
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+            <div class="modal fade" id="modalRobotica" tabindex="-1" role="dialog" aria-labelledby="modalRoboticaLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalRoboticaLongTitle">Guia Robotica Criativa</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalRobotica">
+                    <fieldset>
+                      <legend class="sr-only">Guia Robótica Criativa</legend>
+                      <div class="modal-body" data-form="robotica">
+                      </div>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Robotica Criativa');" href='docs/10_onepage_robotica_criativa.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso Robótica Criativa</a><br>
+                      <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso Robotica Criativa');" href='docs/10_guia_robotica_criativa.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia do caso Robótica Criativa</a>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalRobotica" data-remote="modal_form_guias.html" onclick="ga('send','event','Modal','Open','Card do caso Robotica Criativa');">
+              <img src="./img/portfolio/thumb_robotica_criativa.jpg" class="card-img-top" alt="Robótica Criativa">
+              <div class="card-body">
+                <h3 class="card-title font-weight-bold text-purple">Guia Robótica Criativa</h3>
+                <p class="card-text text-muted"> </p>
+              </div>
+            </a>
+          </div>
+           <!--guia acessibilidade-->
+           <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+             <div class="modal fade" id="modalacessibilidade" tabindex="-1" role="dialog" aria-labelledby="modalacessibilidadeLongTitle" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalacessibilidadeLongTitle">Guia acessibilidade</h3>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                     </button>
+                   </div>
+                   <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalacessibilidade">
+                     <fieldset>
+                       <legend class="sr-only">Guia acessibilidade</legend>
+                       <div class="modal-body" data-form="acessibilidade">
+                       </div>
+                       <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Selo Acessibilidade Digital');" href='docs/11_onepage_acessibilidade_acessível.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso  Selo Acessibilidade Digital</a><br>
+                       <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso O Selo Acessibilidade Digital');" href='docs/11_guia_acessibilidade.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia  do Selo Acessibilidade Digital</a>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                       </div>
+                     </fieldset>
+                   </form>
+                 </div>
+               </div>
+             </div>
+             <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalacessibilidade" data-remote="modal_form_guias.html" onclick="ga('send','event','Modal','Open','Card do casoO Selo Acessibilidade Digital');">
+               <img src="./img/portfolio/thumb_certificado.jpg" class="card-img-top" alt="acessibilidade">
+               <div class="card-body">
+                 <h3 class="card-title font-weight-bold text-purple">Guia Selo Acessibilidade Digital</h3>
+                 <p class="card-text text-muted"> </p>
+               </div>
+             </a>
+           </div>
+           <!--guia guia wifi-->
+
+           <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+             <div class="modal fade" id="modalWifi" tabindex="-1" role="dialog" aria-labelledby="modalWifiLongTitle" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalWifiLongTitle">Guia WiFi Livre SP</h3>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                     </button>
+                   </div>
+                   <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalWifi">
+                     <fieldset>
+                       <legend class="sr-only">Guia WiFi Livre SP</legend>
+                       <div class="modal-body" data-form="Wifi">
+                       </div>
+                       <div class="">
+
+
+                       </div>
+                       <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso Wifi');" href='docs/12_wifi_ONEPAGE_DIGITAL.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso  Wifi</a><br>
+                       <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso Wifi');" href='docs/12_wifi_GuiaDigital_Acessivel_3abr_v2.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia  do Wifi</a>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                       </div>
+                     </fieldset>
+                   </form>
+                 </div>
+               </div>
+             </div>
+             <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalWifi" data-remote="modal_form_guias2.html" onclick="ga('send','event','Modal','Open','Card do casoO Selo Acessibilidade Digital');">
+               <img src="./img/portfolio/Thumb.png" class="card-img-top" alt="Wifi">
+               <div class="card-body">
+                 <h3 class="card-title font-weight-bold text-purple">Guia WiFi Livre SP</h3>
+                 <p class="card-text text-muted"> </p>
+               </div>
+             </a>
+           </div>
+           <!---mobiliza+sp-->
+           <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
+             <div class="modal fade" id="modalMobilizaSp" tabindex="-1" role="dialog" aria-labelledby="modalMobilizaSpLongTitle" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h3 class="modal-title text-uppercase text-purple font-weight-bold" id="modalMobilizaSpLongTitle">Guia Mobiliza+Sp</h3>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                     </button>
+                   </div>
+                   <form class="js-form-guias" action="resources/form_guias.php" method="POST" data-modal="modalMobilizaSp">
+                     <fieldset>
+                       <legend class="sr-only">Guia Mobiliza+sp</legend>
+                       <div class="modal-body" data-form="Mobilizasp">
+                       </div>
+                       <a class='link-copicola' onclick="ga('send','event','PDF','Download','Onepage do caso MobilizaSp')" href='docs/13-mobilizasp_acessível.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Onepage do caso  Mobiliza+Sp</a><br>
+                       <a class='link-copicola' onclick="ga('send','event','PDF','Download','Guia do caso MobilizaSp')" href='docs/13-MobilizaSP_acessivel.pdf' target='_blank'><img src='img/iconpdf.png' style='margin-bottom: 1rem;'/> Guia  do Mobiliza+Sp</a>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-primary bg-orange border-0" data-dismiss="modal">Fechar</button>
+                       </div>
+                     </fieldset>
+                   </form>
+                 </div>
+               </div>
+
+             </div>
+             <a class="card text-left h-100 p-0" data-toggle="modal" data-target="#modalMobilizaSp" data-remote="modal_form_guias.html" onclick="ga('send','event','Modal','Open','Card do caso MobilizaSp');">
+               <img src="./img/portfolio/Mobiliza+sp.png" class="card-img-top" alt="Mobilizasp">
+               <div class="card-body">
+                 <h3 class="card-title font-weight-bold text-purple">Guia Mobiliza+sp</h3>
+                 <p class="card-text text-muted"> </p>
+               </div>
+             </a>
+           </div>
+               </div>
+             </a>
+           </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <span class="anchor" id="galeria"></span>
+  <article class="container-fluid article-galeria py-3" tabindex="0">
+  <div class="row justify-content-center">
+  <div class="col-12 col-lg-10">
+  <h2>Galeria</h2>
+  <p class="font-weight-bold">Vídeo do lançamento CopiCola</p>
+  <p>Convidamos representantes dos 5 casos registrados para um bate-papo sobre as iniciativas que fizeram parte, destacando quais problemas buscavam resolver, por que foram inovadoras e qual a importância de ter o processo de implementação registrado.</p>
+  <p class="sr-only">#PraCegoVer: Vídeo de apresentação dos cinco primeiros casos do Programa CopiCola. O Vídeo se inicia com CopiCola: Registrar, Divulgar, Ensinar. Em seguida surge a Pergunta De qual caso você fez parte? escrita em roxo com fundo cinza. Os participantes de cada caso falam sobre que caso fazem parte: Concurso de Projetos, Empreenda Fácil, Zona Azul, Prato aberto, Banco de dados geográficos. Surge a seguir a pergunta: Que problema Resolve em roxo com fundo cinza. Novamente os membros respondem. Surge novamente mais uma pergunta Por que é inovador?. Os membros respondem. Por fim, surge a última pergunta: Qual a importância de ter esse caso registrado? . Os membros respondem. Ao fim surge, novamente em fundo cinza com letras roxas, CopiCola. Registrar para aprender, Copiar para inovar.</p>
+  </div>
+  </div>
+  <div class="row justify-content-center">
+  <div class="col-12 col-lg-6">
+  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" title="Programa Copi Cola" src="https://www.youtube.com/embed/SfkgP9u_UvI" allowfullscreen></iframe>
+  </div>
+  </div>
+  </div>
+  <div class="row justify-content-center">
+  <div class="col-12 col-lg-10">
+  <p class="font-weight-bold mt-3">Fotos do lançamento CopiCola</p>
+  <p>O programa CopiCola foi lançado no dia 20 de março no Centro Cultural São Paulo (Rua Vergueiro, 1000). Confira as fotos:</p>
+  </div>
+  </div>
+  <div class="row justify-content-center">
+  <div class="col-12 col-lg-6">
+  <div id="carouselGallery" class="carousel slide carousel-fade" data-ride="carousel" data-interval="0">
+  <div class="carousel-inner">
+  <div class="carousel-item active"><img src="img/gallery/photo-01-md.jpg" srcset="img/gallery/photo-01-sm.jpg 576w, img/gallery/photo-01-md.jpg 768w, img/gallery/photo-01-lg.jpg 960w, img/gallery/photo-01-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-02-md.jpg" srcset="img/gallery/photo-02-sm.jpg 576w, img/gallery/photo-02-md.jpg 768w, img/gallery/photo-02-lg.jpg 960w, img/gallery/photo-02-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-03-md.jpg" srcset="img/gallery/photo-03-sm.jpg 576w, img/gallery/photo-03-md.jpg 768w, img/gallery/photo-03-lg.jpg 960w, img/gallery/photo-03-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-04-md.jpg" srcset="img/gallery/photo-04-sm.jpg 576w, img/gallery/photo-04-md.jpg 768w, img/gallery/photo-04-lg.jpg 960w, img/gallery/photo-04-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-05-md.jpg" srcset="img/gallery/photo-05-sm.jpg 576w, img/gallery/photo-05-md.jpg 768w, img/gallery/photo-05-lg.jpg 960w, img/gallery/photo-05-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-06-md.jpg" srcset="img/gallery/photo-06-sm.jpg 576w, img/gallery/photo-06-md.jpg 768w, img/gallery/photo-06-lg.jpg 960w, img/gallery/photo-06-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-07-md.jpg" srcset="img/gallery/photo-07-sm.jpg 576w, img/gallery/photo-07-md.jpg 768w, img/gallery/photo-07-lg.jpg 960w, img/gallery/photo-07-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-08-md.jpg" srcset="img/gallery/photo-08-sm.jpg 576w, img/gallery/photo-08-md.jpg 768w, img/gallery/photo-08-lg.jpg 960w, img/gallery/photo-08-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-09-md.jpg" srcset="img/gallery/photo-09-sm.jpg 576w, img/gallery/photo-09-md.jpg 768w, img/gallery/photo-09-lg.jpg 960w, img/gallery/photo-09-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-10-md.jpg" srcset="img/gallery/photo-10-sm.jpg 576w, img/gallery/photo-10-md.jpg 768w, img/gallery/photo-10-lg.jpg 960w, img/gallery/photo-10-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-11-md.jpg" srcset="img/gallery/photo-11-sm.jpg 576w, img/gallery/photo-11-md.jpg 768w, img/gallery/photo-11-lg.jpg 960w, img/gallery/photo-11-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-12-md.jpg" srcset="img/gallery/photo-12-sm.jpg 576w, img/gallery/photo-12-md.jpg 768w, img/gallery/photo-12-lg.jpg 960w, img/gallery/photo-12-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-13-md.jpg" srcset="img/gallery/photo-13-sm.jpg 576w, img/gallery/photo-13-md.jpg 768w, img/gallery/photo-13-lg.jpg 960w, img/gallery/photo-13-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-14-md.jpg" srcset="img/gallery/photo-14-sm.jpg 576w, img/gallery/photo-14-md.jpg 768w, img/gallery/photo-14-lg.jpg 960w, img/gallery/photo-14-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-15-md.jpg" srcset="img/gallery/photo-15-sm.jpg 576w, img/gallery/photo-15-md.jpg 768w, img/gallery/photo-15-lg.jpg 960w, img/gallery/photo-15-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-16-md.jpg" srcset="img/gallery/photo-16-sm.jpg 576w, img/gallery/photo-16-md.jpg 768w, img/gallery/photo-16-lg.jpg 960w, img/gallery/photo-16-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-17-md.jpg" srcset="img/gallery/photo-17-sm.jpg 576w, img/gallery/photo-17-md.jpg 768w, img/gallery/photo-17-lg.jpg 960w, img/gallery/photo-17-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-18-md.jpg" srcset="img/gallery/photo-18-sm.jpg 576w, img/gallery/photo-18-md.jpg 768w, img/gallery/photo-18-lg.jpg 960w, img/gallery/photo-18-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-19-md.jpg" srcset="img/gallery/photo-19-sm.jpg 576w, img/gallery/photo-19-md.jpg 768w, img/gallery/photo-19-lg.jpg 960w, img/gallery/photo-19-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-20-md.jpg" srcset="img/gallery/photo-20-sm.jpg 576w, img/gallery/photo-20-md.jpg 768w, img/gallery/photo-20-lg.jpg 960w, img/gallery/photo-20-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-21-md.jpg" srcset="img/gallery/photo-21-sm.jpg 576w, img/gallery/photo-21-md.jpg 768w, img/gallery/photo-21-lg.jpg 960w, img/gallery/photo-21-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-22-md.jpg" srcset="img/gallery/photo-22-sm.jpg 576w, img/gallery/photo-22-md.jpg 768w, img/gallery/photo-22-lg.jpg 960w, img/gallery/photo-22-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-23-md.jpg" srcset="img/gallery/photo-23-sm.jpg 576w, img/gallery/photo-23-md.jpg 768w, img/gallery/photo-23-lg.jpg 960w, img/gallery/photo-23-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-24-md.jpg" srcset="img/gallery/photo-24-sm.jpg 576w, img/gallery/photo-24-md.jpg 768w, img/gallery/photo-24-lg.jpg 960w, img/gallery/photo-24-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  <div class="carousel-item"><img src="img/gallery/photo-25-md.jpg" srcset="img/gallery/photo-25-sm.jpg 576w, img/gallery/photo-25-md.jpg 768w, img/gallery/photo-25-lg.jpg 960w, img/gallery/photo-25-xl.jpg 1200w" sizes="100vw" class="d-block w-100" alt="..."></div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselGallery" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Foto Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselGallery" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Próxima Foto</span>
+  </a>
+  </div>
+  </div>
+  </div>
+  </article>
+</main>
+<span class="anchor" id="contato"></span>
+<footer class="footer container-fluid py-3" tabindex="0">
+<div class="row justify-content-center">
+<div class="col-12 col-sm-6 col-lg-3">
+<h2>Contato</h2>
+<p>Tem alguma dúvida ou sugestão?<br>Entre em contato conosco:</p>
+<p><img class="footer-icon" src="img/icon-mail.svg" alt="icone de um envelope fechado">copicola@prefeitura.sp.gov.br</p>
+</div>
+<div class="d-none d-sm-block col-12 col-sm-6 col-lg-2">
+<h2>Realização</h2>
+<img class="img-fluid mx-auto d-block logo-inovacao" src="img/logo-inovacao.png" alt="brasão da prefeitura de são paulo e abaixo o texto Cidade de São Paulo Inovação e Tecnologia">
+</div>
+<div class="d-none d-sm-block col-6 col-lg-2">
+<h2>Parceiro</h2>
+<img class="logo-cebrap" src="img/logo-cebrap.svg" alt="...">
+</div>
+<div class="d-none d-sm-block col-sm-6 col-lg-3">
+<h2>Apoio</h2>
+<div class="row">
+<div class="col-4">
+<img class="img-fluid" src="img/logo-enap.svg" alt="ENAP">
+</div>
+<div class="col-4">
+<img class="img-fluid" src="img/logo-abracam.png" alt="Abracam">
+</div>
+<div class="col-4">
+<img class="img-fluid" src="img/logo-fnp.svg" alt="FNP">
+</div>
+</div>
+<div class="row">
+<div class="col-4">
+<img class="img-fluid" src="img/logo-ibam.png" alt="Ibam">
+</div>
+<div class="col-4">
+<img class="img-fluid" src="img/logo-anepcp.svg" alt="Anecp">
+</div>
+<div class="col-4">
+<img class="img-fluid" src="img/logo-sbgc.svg" alt="SBGC">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="toast notification-success" data-delay="10000" style="position: fixed; bottom: 0; right: 15px; z-index: 1080;" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <svg class="bd-placeholder-img rounded mr-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+      <rect width="100%" height="100%" fill="#33A044"></rect>
+    </svg>
+    <strong class="mr-auto">Sucesso</strong>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+  </div>
+</div>
+<div class="toast notification-error" data-delay="10000" style="position: fixed; bottom: 0; right: 15px; z-index: 1080;" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <svg class="bd-placeholder-img rounded mr-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+      <rect width="100%" height="100%" fill="#FF0000"></rect>
+    </svg>
+    <strong class="mr-auto">Falha</strong>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/main.19.5.29.164943-min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136674145-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136674145-1');
+</script>
+<!-- Hotjar Tracking Code for https://copicola.prefeitura.sp.gov.br -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1454043,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<noscript>Seu navegador não tem suporte a JavaScript ou está desativado!</noscript>
+</body>
+</html>
