@@ -1,0 +1,350 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Premia Sampa: Premiando servidores inovadores </title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_premia.css">
+    <script src="./js/main-script.js"></script>
+  </head>
+  <body>
+      <header id="main-header" class="fixed-top">
+
+        <!-- SMIT HEADER -->
+        <iframe id="global-bar" src="https://011lab.prefeitura.sp.gov.br/header/global_header.php?color=white" onload="this.contentWindow.postMessage('height', 'https://011lab.prefeitura.sp.gov.br');" scrolling="no" width="100%" height="50px" style="line-height: 0rem" frameBorder="0"></iframe>
+        <script>
+          /* auto rezise window by iframe content */
+          window.addEventListener("message", receiveMessage, false);
+          function receiveMessage(event)
+          {
+              if(event.origin == "http://localhost" || event.origin == "https://011lab.prefeitura.sp.gov.br") {
+                  iframe = document.getElementById("global-bar");
+                  iframe.style.height = event.data + "px";
+              }
+          }
+        </script>
+
+        <!-- END OF SMIT HEADER -->
+
+        <nav class="navbar navbar-expand-md nav__bg--premia pt-0 mt-0">
+          <a class="navbar-brand" href="./index.html"><img src="assets/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link nav-link__premia" href="./sobre.html">Sobre <span class="sr-only">(você está aqui)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link__premia " href="#" id="candidatoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Candidato
+                </a>
+                <div class="dropdown-menu" aria-labelledby="candidatoDropdown">
+                  <a class="dropdown-item" href="./docs//Manual_do_Candidato-Premia_Sampa_2020.pdf">Manual do Candidato</a>
+                  <a class="dropdown-item" href="./materiais-para-elaboracao-de-projetos.html">Materiais sobre elaboração de projetos</a>
+                  <a class="dropdown-item disabled" href="#">Inscrição para capacitação de detalhamento dos projetos <em>(a partir de dezembro)</em></a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link__premia " href="#" id="candidatoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Parceiro
+                </a>
+                <div class="dropdown-menu" aria-labelledby="candidatoDropdown">
+                  <a class="dropdown-item" href="./docs/Edital_de_Chamamento_Publico_Especifico2.pdf">edital de doação para premiação(ENCERRADO)</a>
+
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__premia" href="./edicoes_anteriores/2018/">Edições Anteriores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link__premia" href="./docs/Lista-de--Projetos--Finalistas.pdf">Finalistas</a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+      </header>
+
+    <!-- Video -->
+    <div class="container-fluid">
+    <figure>
+      <img class="img-fluid" src="./assets/premiaSampa.jpg" alt="Imagem Xis">
+      <figcaption class="comentarios"><p class="text-center">“A inovação está presente na vida das pessoas quando falamos de
+    aplicar <br>e buscar a transformação de processos na gestão pública e
+    privada  com <br>maior eficiência. Acreditamos que aquilo que inova
+
+    transforma a vida das pessoas”</p></figcaption>
+      <h6 class="text-center">Juan Quirós, Secretário de Inovação e Tecnologia</h6>
+      <p class="text-center">“Realizamos essa premiação para dizer ao servidor que respeitamos o
+  seu trabalho,<br> respeitamos a capacidade que cada um tem de auxiliar
+  na melhoria da gestão. É <br>um olhar de não ficar esperando que a
+  mudança venha somente da alta gestão ou de <br>alguém de fora"</p>
+      <h6 class="text-center">Malde Vilas Bôas, Secretária de Gestão</h6>
+
+
+    </figure>
+    <p >A cidade de São Paulo conheceu na terça-feira (30) os vencedores da
+edição de 2020 do Premia Sampa. Com uma cerimônia adaptada por
+
+conta da pandemia de covid-19 e transmitida ao vivo pela internet, a  inovação e a participação social se fortaleceram como um dos temas na
+
+gestão de cidades.<br><br>Devido aos protocolos de saúde, apenas um representante de cada finalis
+ta participou presencialmente do evento, junto com os secretários munici
+pais Juan Quirós (Inovação e Tecnologia) e Malde Vilas Bôas (Gestão),
+
+além dos secretários-adjuntos das respectivas pastas, Daniel Glaessel e
+Fabrício Cobra.<br><br> Os prêmios foram concedidos em parceria com diversas instituições e
+incluem cursos voltados à inovação para aperfeiçoar habilidades. Os vencedores foram escolhidos por bancas de especialistas sem ligação com a
+
+Prefeitura.<br><br>Além disso, os três primeiros colocados de todas as categorias com equipes compostas por servidores públicos participarão de uma imersão formativa em inovação pública. A oficina será promovida pelo (011).lab,laboratório-de inovação em governo da Prefeitura de São Paulo.</p>
+
+
+
+
+<div class="text">
+
+<p class="text-right"><a class="text-dark"href="https://www.youtube.com/watch?v=LdrJ7bx5fNQ">Clique aqui para assistir a Cerimônia completa</a></p>
+<p class="text-right"><a class="text-dark"href="https://drive.google.com/drive/folders/1ncjBtHUTvjUs-iCYeO0933z4pDj7NdQp?usp=sharing">Clique aqui para acessar as fotos da Cerimônia</a></p>
+
+</div>
+
+    <!-- Timeline -->
+    <section class="container-fluid" id="timeline">
+      <div class="row">
+        <div class="col py-5">
+          <h1 class="text-center">Como foi a edição 2020?</h2>
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+
+        <div class="cd-timeline">
+          <div class="cd-timeline-container">
+
+            <!-- timeline block -->
+            <div class="cd-timeline-block cd-timeline-block-active">
+                <div class="cd-block-content">
+                  <div class="cd-timeline-content-img col-md-2">
+                    <img class="img-fluid" src="./assets/600.png" alt="Icone de Bandeira de Largada">
+                  </div>
+                  <div class="cd-timeline-content col-md-5">
+                    <h1></h1>
+                    <h2>agentes públicos
+envolvidos em pro<br>jetos inscritos</h2>
+                  </div> <!-- cd-timeline__content -->
+                </div>
+            </div>
+
+            <!-- timeline block -->
+            <div class="cd-timeline-block cd-timeline-block-active">
+                <div class="cd-block-content">
+                  <div class="cd-timeline-content-img col-md-2">
+                    <img class="img-fluid" src="./assets/118.png" alt="Icone de Buscando Resultados">
+                  </div>
+                  <div class="cd-timeline-content col-md-5">
+                    <h1></h1>
+                    <h2>projetos ho<br>mologados.</h2>
+                  </div> <!-- cd-timeline__content -->
+                </div>
+            </div>
+
+            <!-- timeline block -->
+            <div class="cd-timeline-block cd-timeline-block-active">
+                <div class="cd-block-content">
+                  <div class="cd-timeline-content-img col-md-2">
+                    <img class="img-fluid" src="./assets/30.png" alt="Icone de Envio de Relatórios">
+                  </div>
+                  <div class="cd-timeline-content col-md-5">
+                    <h1></h1>
+                    <h2>oraganizações inscritas, <br>sendo 10 órgaos públicos e 10 organizações privadas.</h2>
+                  </div> <!-- cd-timeline__content -->
+                </div>
+            </div>
+
+            <!-- timeline block -->
+            <div class="cd-timeline-block cd-timeline-block-active">
+                <div class="cd-block-content">
+                  <div class="cd-timeline-content-img col-md-2">
+                    <img class="img-fluid" src="./assets/24.png" alt="Icone de Documento">
+                  </div>
+                  <div class="cd-timeline-content col-md-5">
+                    <h1></h1>
+                    <h2>projetos <br>finalistas</h2>
+                  </div> <!-- cd-timeline__content -->
+                </div>
+            </div>
+
+            <!-- timeline block -->
+            <div class="cd-timeline-block cd-timeline-block-active">
+                <div class="cd-block-content">
+                  <div class="cd-timeline-content-img col-md-2">
+                    <img class="img-fluid" src="./assets/5.png" alt="Icone de Divulgação de resultados">
+                  </div>
+                  <div class="cd-timeline-content col-md-5">
+                    <h1></h1>
+                    <h2>Projetos em <br>1ºLUGAR</h2>
+                  </div> <!-- cd-timeline__content -->
+                </div>
+            </div>
+
+            <!-- timeline block -->
+            <div class="cd-timeline-block cd-timeline-block-active">
+                <div class="cd-block-content">
+                  <div class="cd-timeline-content-img col-md-2">
+
+                  </div>
+                  <div class="cd-timeline-content col-md-5">
+                    <h1>QUER SABER MAIS?</h1>
+                    <h2>Acesse aqui a publicação sobre a edição!</h2>
+                  </div> <!-- cd-timeline__content -->
+                </div>
+            </div>
+
+            <!-- timeline block -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Categorias -->
+    <section class="container" id="categories">
+      <div class="row py-5">
+        <div class="col text-center">
+          <h1>VENCEDORES DA EDIÇÃO 2020</h1>
+        </div>
+      </div>
+      <div>
+        <ul class="timeline col-12 text-left">
+
+          <li>
+              <h2>Categoria I: Inovação em Larga Escala </h2>
+              <p>1ºLUGAR: Projeto Tô Legal(Prodam e Secretaria Municipal de subprefeituras)</p>
+              <p>2ºLUGAR: Transporte de Servidores Por Aplicativo de Celular(Secretaria Municipal de Gestão)</p>
+              <p>3ºLUGAR:: Sondagem:plataforma para acompanhamento das aprendizagenS(Secretaria Municipal de Educação)</p>
+          </li>
+          <li>
+              <h2>Categorias II: Inovação na Ponta</h2>
+              <p>1ºLUGAR: Programa Somos Mário(Biblioteca Mário de Andrade)</p>
+              <p>2ºLUGAR: URSI Mais Perto(Unidade de Referência à Saúde do Idoso Carandiru)</p>
+              <p>3ºLUGAR: Jogos Escolares(Centro Esportivo Vila Guarani)</p>
+
+          </li>
+          <li>
+              <h2>Categorias III: Inovação em Processos Internos </h2>
+              <p>1ºLUGAR: Benchmarking para Priorização de Politicas da Assistência Social(Scretaria Municipal de Assistência e Desenvolvimento Social)</p>
+              <p>2ºLUGAR::  Restituição aerofotogramétrica com uso de drone(Secretaria Municipal de Habitação)</p>
+              <p>3ºLUGAR: Orientações Técnicas de Tecnologia da Informação e Comunicação(Secretaria Municipal de Inovação e Tecnologia)</p>
+         </li>
+          <li>
+              <h2>Categorias IV: Inovação em serviços e políticas públicas</h2>
+              <p>1ºLUGAR: CEI Amigo do Peito(Secretaria Municipal de Educação)</p>
+              <p>2ºLUGAR: A prevenção combinada ao HIV junto a equipamentos de cultura (Secretaria Municipal de Saúde)</p>
+              <p>3ºLUGAR: AGENDA CRAS(Secretaria Municipal de Assistência e Dsenvolvivimento Social)</p>
+
+
+
+            </li>
+          <li>
+              <h2>Categorias V: Inovação Aberta</h2>
+              <p>1ºLUGAR: Cidades.co</p>
+         </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- Inscricoes -->
+    <section class="container-fluid" id="inscricoes">
+      <div class="row justify-content-center">
+        <h1 class="text-center pt-4" >Acesse aqui os projetos finalistas</h1>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <a class="btn btn-primary btn-premia" href=https://drive.google.com/drive/folders/1T1UrOqvskOGCeN35jGccC8N0ev_WVhDT?usp=sharingT" target="_blank" rel="noopener">
+           <!-- <svg xmlns="http://www.w3.org/2000/svg">
+              <path class="cls-1" d="M0,37.59a5.17,5.17,0,0,0,5.16,5.16H35.54a5.17,5.17,0,0,0,5.17-5.16V28A.84.84,0,1,0,39,28v9.61a3.5,3.5,0,0,1-3.5,3.5H5.16a3.5,3.5,0,0,1-3.49-3.5V9.37A3.5,3.5,0,0,1,5.16,5.88h9.62A.84.84,0,0,0,15.61,5a.83.83,0,0,0-.83-.83H5.16A5.17,5.17,0,0,0,0,9.37Z"/>
+              <path class="cls-1" d="M14.29,21l-2.54,9.18A.84.84,0,0,0,12,31a.83.83,0,0,0,.81.21l9.17-2.54a.85.85,0,0,0,.37-.21L41.62,9.16a4.64,4.64,0,0,0,0-6.54L40.35,1.35a4.62,4.62,0,0,0-6.53,0L14.5,20.67A.78.78,0,0,0,14.29,21ZM35.17,2.71a2.7,2.7,0,0,1,3.83,0L40.27,4a2.71,2.71,0,0,1,0,3.82L39.12,9,34,3.85ZM32.49,5.39l5.1,5.09L21.78,26.29l-5.1-5.09ZM19.74,27.31,14.1,28.87l1.56-5.63Z"/>
+            </svg> -->
+          Acesse aqui os projetos finalistas"?
+        </a>
+      </div>
+    </section>
+    <section class="container-fluid" id="inscricoes">
+      <div class="row justify-content-center">
+        <h1 class="text-center pt-4" </h1>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <a class="btn btn-primary btn-premia" href=https://www.youtube.com/playlist?list=PLqSDlBG2K3Oz0gOC01UVKP8iK37d29iKl" target="_blank" rel="noopener">
+           <!-- <svg xmlns="http://www.w3.org/2000/svg">
+              <path class="cls-1" d="M0,37.59a5.17,5.17,0,0,0,5.16,5.16H35.54a5.17,5.17,0,0,0,5.17-5.16V28A.84.84,0,1,0,39,28v9.61a3.5,3.5,0,0,1-3.5,3.5H5.16a3.5,3.5,0,0,1-3.49-3.5V9.37A3.5,3.5,0,0,1,5.16,5.88h9.62A.84.84,0,0,0,15.61,5a.83.83,0,0,0-.83-.83H5.16A5.17,5.17,0,0,0,0,9.37Z"/>
+              <path class="cls-1" d="M14.29,21l-2.54,9.18A.84.84,0,0,0,12,31a.83.83,0,0,0,.81.21l9.17-2.54a.85.85,0,0,0,.37-.21L41.62,9.16a4.64,4.64,0,0,0,0-6.54L40.35,1.35a4.62,4.62,0,0,0-6.53,0L14.5,20.67A.78.78,0,0,0,14.29,21ZM35.17,2.71a2.7,2.7,0,0,1,3.83,0L40.27,4a2.71,2.71,0,0,1,0,3.82L39.12,9,34,3.85ZM32.49,5.39l5.1,5.09L21.78,26.29l-5.1-5.09ZM19.74,27.31,14.1,28.87l1.56-5.63Z"/>
+            </svg> -->
+        Assista os vídeos sobre os projetos
+        </a>
+      </div>
+    </section>
+
+    <!-- Regulamento -->
+      <section class="container-fluid" id="regulamento">
+        <div class="row py-4">
+          <div class="col text-center">
+            <h1> Regulamento </h1>
+            <a href="docs/Regulamento-Premia Sampa-2020.pdf" target="_blank" class="icon-pdf">
+              Regulamento premia sampa 2020(ENCERRADO)
+            </a>
+          </div>
+        </div>
+      </section>
+
+    <!-- FAQ -->
+
+
+    <footer class="container py-4" id="main-footer">
+      <div clas="row">
+        <div class="col text-center">
+          <h1>Realização</h1>
+          <div class="row">
+            <div class="col">
+                <img class="p-2" src="./assets/logo-smit.png" alt="Logo Cidade de São Paulo - Inovação e Tecnologia">
+                <img class="p-2" src="./assets/logo-gestao.png" alt="Logo Cidade de São Paulo -Gestão">
+                <h1 class="text-center">Parceiro</h1>
+                  <img height="120px" width="720px"class="p-2" src="./assets/wegov.png" alt="Logo wegov -Wegov">
+                  <img height="120px"class="p-2" src="./assets/marca_clp.png" alt="marca_clp -Wegov">
+                  <img height="120"class="p-2" src="./assets/logo-escola .png" alt="Logo logo-escola -echos">
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col text-center">
+          <h1>Contato</h1>
+          <p>Ainda tem alguma dúvida? Entre em contato</p>
+          <a href="mailto:premiasampa@prefeitura.sp.gov.br">premiasampa@prefeitura.sp.gov.br</a>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136674145-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-136674145-3');
+    </script>
+  </body>
+</html>
